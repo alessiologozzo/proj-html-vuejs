@@ -1,0 +1,24 @@
+@import "./colors.scss";
+
+.al-gold-button, .al-white-button{
+    padding: 0.8rem 2.2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 300ms;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.al-gold-button{
+    background-color: $app_gold;
+    color: white;
+}
+
+.al-white-button{
+    background-color: white;
+    color: $app_red;
+}
