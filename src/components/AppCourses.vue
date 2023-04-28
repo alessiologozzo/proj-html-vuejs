@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 d-flex flex-column gap-3 align-items-start pt-3">
-                        <img  class="al-w-10" src="../assets/img/Books-icon.png" alt="books">
+                        <img class="al-book pb-2" src="../assets/img/Books-icon.png" alt="books">
                         <h2>Thousands of courses for any type of student</h2>
                         <p>At EduPrime, it doesn't matter what domain you wish to pursue a career in. Here you can find a course that satisfies your needs within a click away and applies for a course in a matter of minutes. EduPrime is ranked as the most versatile university in the world, thanks to the numbers of courses it provides.</p>
                         <a href="#" class="al-gold-button">Browse through courses</a>
@@ -31,13 +31,14 @@
 <style lang="scss" scoped>
     @import "../assets/utilities.scss";
 
-    .al-w-10{
-        width: 10%;
+    .al-book{
+        width: 70px;
     }
 
     .al-home-bg{
         background-image: url("../assets/img/home-background.png");
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         background-position: right;
     }
 

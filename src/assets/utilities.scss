@@ -1,8 +1,8 @@
 @import "./colors.scss";
 
-.al-gold-button, .al-white-button{
+.al-gold-button, .al-white-button, .al-red-button{
     padding: 0.8rem 2.2rem;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
@@ -21,4 +21,9 @@
 .al-white-button{
     background-color: white;
     color: $app_red;
+}
+
+.al-red-button{
+    background-color: $app_red;
+    color: white;
 }

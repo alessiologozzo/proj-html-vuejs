@@ -30,7 +30,7 @@
 
         <div class="container d-flex flex-column justify-content-center align-items-center gap-3 text-center my-5 pt-3 pb-5">
             <h1>Key to your success</h1>
-            <p class="px-0 px-md-5">EduPrime is the most versatile WordPress theme for educational puroposes, showcasing universities, courses, secondary schools etc.</p>
+            <p class="px-0 px-md-5 al-w">EduPrime is the most versatile WordPress theme for educational puroposes, showcasing universities, courses, secondary schools etc.</p>
             <div class="d-flex gap-3 flex-wrap justify-content-center">
                 <a href="#" class="al-gold-button d-flex justify-content-center align-items-center gap-2"><i class="fa-solid fa-magnifying-glass"></i><span>Search courses</span></a>
                 <a href="#" class="al-white-button d-flex justify-content-center align-items-center gap-2"><i class="fa-solid fa-user-plus"></i><span>Apply for university</span></a>
@@ -82,7 +82,7 @@
     }
 
     .al-wave{
-        height: 100px
+        height: 100px;
     }
 
     .al-a-color{
@@ -145,6 +145,13 @@
             }
         }
     }
+
+    @media screen and (min-width: 992px){
+        .al-w{
+            width: 650px;
+        }
+    }
+
     @media screen and (min-width: 1400px){
         .al-wave{
             width: 100%;
