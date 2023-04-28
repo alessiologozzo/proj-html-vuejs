@@ -124,7 +124,7 @@ p{
     }
 
     .al-graduation {
-        transform: translateX(55%);
+        transform: translateX(58%);
     }
 
 }
@@ -147,7 +147,7 @@ p{
     }
 
     .al-evaluation {
-        transform: translateX(11%);
+        transform: translateX(12%);
     }
 }
 
@@ -161,7 +161,7 @@ p{
     }
 
     .al-graduation {
-        transform: translateX(72%);
+        transform: translateX(73%);
     }
 
     .al-orientation {
@@ -169,7 +169,7 @@ p{
     }
 
     .al-evaluation {
-        transform: translateX(18%);
+        transform: translateX(19%);
     }
 }
 
