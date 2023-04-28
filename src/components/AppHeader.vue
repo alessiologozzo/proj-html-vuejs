@@ -171,6 +171,8 @@
         left: 0;
         right: 0;
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         z-index: -10;
         transition: opacity 2s;
     }
