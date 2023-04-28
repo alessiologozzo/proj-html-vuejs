@@ -20,7 +20,7 @@
                     <img :src="getUrl()" alt="err">
                 </div>
 
-                <div class="col-12 col-md-6 pt-5 d-flex flex-column align-items-center align-items-md-start">
+                <div class="col-12 col-md-6 pt-5 pt-lg-3 pt-xl-0 d-flex flex-column align-items-center align-items-md-start">
                     <h4>{{ facultyDatas[activeFaculty].name }}</h4>
                     <p class="pt-2 pt-md-4 pb-3 al-grey">{{ facultyDatas[activeFaculty].text }}</p>
                     <a href="#" class="d-inline-block al-red-button">Read More</a>
