@@ -260,6 +260,10 @@
         .al-rights{
             transform: translateX(13%);
         }
+
+        .al-logo{
+            transform: translateX(-5%);
+        }
     }
 
     @media screen and (min-width: 992px){
@@ -304,6 +308,10 @@
         .al-rights{
             transform: translateX(38%);
         }
+
+        .al-logo{
+            transform: translateX(-7%);
+        }
     }
 
     @media screen and (min-width: 1400px){
@@ -325,6 +333,10 @@
 
         .al-rights{
             transform: translateX(50%);
+        }
+
+        .al-logo{
+            transform: translateX(-12%);
         }
     }
 </style>
